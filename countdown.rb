@@ -1,8 +1,8 @@
 def countdown(n)
   counter = n
   until counter == 0 
-    puts "#{n} SECOND(S)!"
     counter -= 1 
+    puts "#{n} SECOND(S)!"
   end
   return "HAPPY NEW YEAR!"
 end
